@@ -28,6 +28,7 @@ let redBtn = document.getElementsByTagName("button")[0];
 ```
 solution 2 using for loop <br>
 ```
+const buttonBar = document.querySelector(".button-bar");
 const changeColor = () => {
   const allBtn = document.getElementsByTagName("button");
   for (let i = 0; i < allBtn.length; i++) {
@@ -41,6 +42,7 @@ buttonBar.addEventListener("click", changeColor);
 ```
 solution 3 using map and push array method <br>
 ```
+const buttonBar = document.querySelector(".button-bar");
 const colorChanger = () => {
   let arrayBtn = [];
   let buttonColor = document.getElementsByTagName("button");
